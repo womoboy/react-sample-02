@@ -1,7 +1,16 @@
 const App = () => {
+
+    const title = 'Hello World !';
+    const like = 50;
+
     return (
         <>
-            <h2>hello Wolrd</h2>
+            <div className="App">
+                <div className="content">
+                    <h1>{ title }</h1>
+                    <p>Like { like } times</p>
+                </div>
+            </div>
         </>
     )
 }
