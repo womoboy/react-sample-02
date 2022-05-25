@@ -7,8 +7,9 @@ const App = () => {
         <>
             <div className="App">
                 <div className="content">
-                    <h1>{ title }</h1>
-                    <p>Like { like } times</p>
+                    <p>{ title }</p>
+                    <p>Likes { like } times</p>
+                    <p>random number is: {Math.floor(Math.random() * 20)}</p>
                 </div>
             </div>
         </>
