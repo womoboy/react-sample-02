@@ -1,15 +1,13 @@
+import Navbar from './Navbar';
+import Home from './Home';
+
 const App = () => {
-
-    const title = 'Hello World !';
-    const like = 50;
-
     return (
         <>
             <div className="App">
+                <Navbar />
                 <div className="content">
-                    <p>{ title }</p>
-                    <p>Likes { like } times</p>
-                    <p>random number is: {Math.floor(Math.random() * 20)}</p>
+                    <Home />
                 </div>
             </div>
         </>
