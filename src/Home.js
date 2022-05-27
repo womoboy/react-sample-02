@@ -13,7 +13,7 @@ const Home = () => {
                 .then(res => {
                     console.log(res);
                     if(!res.ok) {
-                        throw Error('the fetch api cant return data');
+                        throw Error('Sorry , we can\' find data!');
                     }
                     return res.json();
                 })
