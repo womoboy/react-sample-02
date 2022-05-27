@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
 import Bloglist from './Bloglist';
 
 //import custome fetching hooks
 import useFetch from './useFetch';
+
 const Home = () => {
     const { data: blogs, isPending, error } = useFetch('http://localhost:8000/blogs');
 
