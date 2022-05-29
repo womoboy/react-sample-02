@@ -15,6 +15,7 @@ const Home = () => {
             </div>
         </>
     )
+    //this mini project is finished!
 }
 
 export default Home;
