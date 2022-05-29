@@ -19,21 +19,21 @@
       "id": 3
     },
     {
-      "title": "test blog",
-      "body": "this is a test descreption for this blog...",
+      "title": "test blog 1",
+      "body": "this is the test description for this blog...",
       "author": "aria",
       "id": 4
     },
     {
-      "title": "Test blog 2",
-      "body": "this is a test descreption for this blog 2...",
+      "title": "test blog 2",
+      "body": "this is the test description for this blog...",
       "author": "babak",
       "id": 5
     },
     {
-      "title": "this is another test",
-      "body": "this is another test descreption for this blog...",
-      "author": "aria",
+      "title": "test blog 3",
+      "body": "this is a test description for this blog...",
+      "author": "babak",
       "id": 6
     }
   ]
